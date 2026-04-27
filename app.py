@@ -2,7 +2,7 @@ import streamlit as st
 import os
 import sys
 from langchain_core.messages import HumanMessage, AIMessage
-from langgraph.pregel import RunnableConfig
+
 
 # 添加项目路径到Python路径
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
